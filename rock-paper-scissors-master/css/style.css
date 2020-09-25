@@ -1,0 +1,132 @@
+body {
+  background-color: hsl(214, 47%, 23%);
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+header {
+  display: flex;
+  justify-content: center;
+}
+.score-bar {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  border: 3px solid hsl(217, 16%, 45%);
+  border-radius: 20px;
+}
+.score-bar img {
+  margin: 20px;
+}
+.score {
+  width: 25%;
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: center;
+}
+.score h2 {
+  color: hsl(229, 64%, 46%);
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.score p {
+  font-size: 50px;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.pentagon {
+}
+
+.scissors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 2;
+  border-radius: 50%;
+  width: 6em;
+  height: 6em;
+  background: #fff;
+  top: 10em;
+  right: 38.5em;
+  border: 15px solid hsl(39, 89%, 49%);
+}
+
+.paper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 3;
+  border-radius: 50%;
+  width: 6em;
+  height: 6em;
+  background: #fff;
+  right: 29.2em;
+  top: 16.1em;
+  border: 15px solid hsl(230, 89%, 62%);
+}
+
+.rock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 4;
+  border-radius: 50%;
+  width: 6em;
+  height: 6em;
+  background: #fff;
+  top: 28em;
+  right: 32em;
+  border: 15px solid hsl(349, 71%, 52%);
+}
+
+.lizard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 5;
+  border-radius: 50%;
+  width: 6em;
+  height: 6em;
+  background: #fff;
+  top: 28em;
+  left: 32em;
+  border: 15px solid hsl(261, 73%, 60%);
+}
+
+.spock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 6;
+  border-radius: 50%;
+  width: 6em;
+  height: 6em;
+  background: #fff;
+  right: 48.8em;
+  top: 16.1em;
+  border: 15px solid hsl(189, 59%, 53%);
+}
+
+.attribution {
+  position: fixed;
+  bottom: 0;
+
+  text-align: center;
+  color: #fff;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
